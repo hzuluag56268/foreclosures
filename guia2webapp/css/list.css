@@ -1,0 +1,31 @@
+#listbody{
+    background-color: burlywood;
+}
+#card_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+.card{
+    position: relative;
+    margin: 20px;
+}
+.description{
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+.tel{
+    position: absolute;
+    top: 460px;
+    left: 130px;
+}
+strong{
+    font-size: 20px;
+}
+img{
+    border-radius: 40%;
+
+}

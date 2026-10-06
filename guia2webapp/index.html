@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<title>Adoptando Con Amor</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/scriptBlueBanner.css">
+		
+	</head>
+	<body class="precarga">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Adoptando Con Amor</h1>
+				<img src="images/perro.png" align="left" width="120" height="40" alt="Logo"  />
+				      <nav>
+                   		<ul>
+						<li><a href="pets.html">Como Adoptar</a></li>
+						<li><a href="#dos">Dar en Adopcion</a></li>
+						<li><a href="#semana">Mascotas de la semana</a></li>
+						<li><a href="#contact">Contacto</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<div class="blue_banner">
+        <div id='img_container'>
+            <div id="img_div">
+            </div>
+            
+
+        </div>
+
+        <h1 id='title_adopta'>Adopta a <br> un amigo</h1>
+    </div>
+
+		<!-- Uno -->
+			<section id="uno" class="main estilo2 right dark fullscreen">
+				<div class="content caja estilo2">
+					<header>
+						<h2>Como puedo Adoptar un amigo ?</h2>
+					</header>
+					<p>No compres adopta, adoptar es mucho mejor que comprarlo.  Adoptando salvas la vida de dos animales, la de tu 
+                       nuevo amigo y la del que ocupará su lugar en Adoptando con Amor,  Solo escoge tu mascota de la cual quieres
+                       recibir todo su amor y compañía, digilencia el formulario y en poco tiempo nos comunicaremos contigo.
+                    </p>
+				</div>
+				<a href="#dos" class="button estilo2 down anchored">Next</a>
+			</section>
+
+		<!-- Dos -->
+			<section id="dos" class="main estilo2 left dark fullscreen">
+				<div class="content caja estilo2">
+					<header>
+						<h2>Da un Amigo en Adopción</h2>
+					</header>
+					<p>En Adoptando con Amor, te ayudamos a que le puedas conseguir un hogar a los peludos que aun no lo tengan.  Si tienes
+                        una mascota en casa Gato o Perro, que estés dando en adopción también lo puedes hacer.  Digilencia el formulario y en poco 
+                        tiempo nos comunicaremos contigo para darte la indicaciones y poderte colaborar.</p>
+				<button id="open">
+					Llena el formulario
+				</button>
+					</div>
+				<a href="#semana" class="button estilo2 down anchored">Next</a>
+				<div class="formulario" id="formulario">
+
+					<form action="" method="POST">
+						<table>
+							<tr>
+								<td> <input type="text" placeholder="tu nombre" name="nombre" id="nombre"></td>
+							</tr>
+							<tr>
+								<td> <input type="text" placeholder="raza" name="raza"  id="raza"></td>
+							</tr>
+							<tr>
+								<td> <input type="text" placeholder="edad" name="edad" id="edad"></td>
+							</tr>			
+							<tr>
+								<td> <input type="text" placeholder="color" name="color" id="color"></td>
+							</tr>
+							<tr>
+								<td> <input type="text" placeholder="telefono" name="telefono"  id="telefono"></td>
+							</tr>
+							<tr>
+								<td> <input type="text" placeholder="ciudad" name="ciudad" id="ciudad"></td>
+							</tr>
+				
+							<!--<tr>
+								<td> <input type="submit" value="ENVIAR" onclick="getData()" name="enviar"></td>
+							</tr> -->
+							 <button type="button" onclick="getData()">Enviar Datos </button> 
+				
+						</table>
+					</form>
+				</div>
+			</section>
+				
+		<!-- Semana -->
+			<section id="semana" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>Nuestras Mascotas de la semana</h2>
+						<p>Estos son nuestros lindos amigos disponibles para que los puedas adoptar.</p>
+					</header>
+
+					<!-- Galeria  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/fulls/01.jpg" class="image fit"><img src="images/miniaturas/01.jpg" title="Motas" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/02.jpg" class="image fit"><img src="images/miniaturas/02.jpg" title="Lobito" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/03.jpg" class="image fit"><img src="images/miniaturas/03.jpg" title="Manchas" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/04.jpg" class="image fit"><img src="images/miniaturas/04.jpg" title="Foxie" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/05.jpg" class="image fit"><img src="images/miniaturas/05.jpg" title="Amoroso" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/06.jpg" class="image fit"><img src="images/miniaturas/06.jpg" title="Beny" alt="" /></a>
+							</article>
+						</div>
+
+				</div>
+			</section>
+
+			<!--Maps-->
+			<h2>Confirma si esta es la ubicacion de tu mascota: </h2>
+			<div id="map" class="map"></div>
+
+			<script async
+				src="https://maps.googleapis.com/maps/api/
+				js?key=AIzaSyB6Qfc2CVdMnyOdfZTm1oC9WUXS0JgN-78&callback=initMap">
+			</script>
+
+
+
+
+		<!-- Contacto -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Contáctanos</h2>
+						<p>Dejanos tus tados para poder llamarte y concretar una cita.</p>
+					</header>
+					<div class="caja">
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field half"><input type="text" name="name" placeholder="Nombre" /></div>
+								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
+								<div class="field"><textarea name="message" placeholder="Mensaje" rows="6"></textarea></div>
+							</div>
+							<ul class="actions special">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<!--contadores-->
+
+			<p>Eres el visitante número: </p>
+			<a  href="https://www.contadorvisitasgratis.com" 
+				title="contador de visitas para blog"><img src="https://counter6.stat.ovh/private/contadorvisitasgratis.php?c=rabaezduty8l6rpsdaqy2zgefktrpsnm" border="0" 
+				title="contador de visitas para blog" alt="contador de visitas para blog">
+			</a>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Iconos -->
+					<ul class="icons">
+						<li><a href="#"> <img src="images/iconos/twitter.png" width="90" height="90"> alt="twitter" </a> <a href="#"> <img src="images/iconos/instagram.png" width="90" height="90"> alt="instagram" </a><a href="#"> <img src="images/iconos/g+.png" width="90" height="90"> alt="google"</a><a href="#"> <img src="images/iconos/whatsapp.png" width="90" height="90"> alt="whatsapp" </a> </li>						
+						
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; HAM </li><li>Diseño web <a href="#"></a></li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery.poptrox.min.js"></script>
+			<script src="js/jquery.scrolly.min.js"></script>
+			<script src="js/jquery.scrollex.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/main.js"></script>
+			<script src="js/scriptBlueBanner.js"></script>
+			<script src="js/app.js"></script>
+			<script src="js/form.js"></script>
+			<script src="js/localizacion.js"></script>
+			<script src="js/maps.js"></script>
+			
+
+
+	</body>
+</html>
