@@ -1,0 +1,6 @@
+remates_state.json
+remates_cookies.json
+.env
+__pycache__/
+*.pyc
+.venv/
