@@ -1,0 +1,62 @@
+Analiza la lista de remates judiciales Que te acabo de proporcionar(donde cada registro inicia con "===== CODIGO" seguido de URL, ESTADO: OK y CONTENIDO) con el objetivo de identificar oportunidades para 'flipping'. Proporciona una recomendación para cada remate iterando uno por uno, priorizando en primer lugar aquellos con tipos de proceso judicial que reduzcan el riesgo de pleitos prolongados y aseguren mayor rapidez (como procesos hipotecarios), y en segundo lugar la ubicación del inmueble. Para cada análisis, extrae e incluye obligatoriamente: el tipo de proceso (hipotecario, divisorio, ejecutivo, etc.),Análisis de la ubicación detallada  para tener en cuenta liquidez, la fecha del remate, precio, el juzgado correspondiente y el número de radicado de 23 dígitos sin espacios para consulta en la rama judicial.
+
+Quiero que me presentes la información de los remates En una página web en una tabla detallada y estructurada. La tabla debe incluir columnas para el Código de Remate, Tipo de Proceso, Ubicación y si es casa apto o garaje o que,precio, Fecha de Remate, y Radicado de 23 dígitos. Adicionalmente, ordena la tabla por la prioridad de oportunidad de flipping (de mejor a peor "ganga"), y luego por Tipo de Proceso y Fecha de Remate, para simular la capacidad de filtrar y ordenar la información. Esto de una manera interactiva y visual mente agradable 
+
+
+
+Actúa como un experto en derecho procesal y análisis de riesgo para remates judiciales en Colombia. A continuación, te proporcionaré el historial de actuaciones de uno o varios radicados. Tu objetivo es realizar un análisis exhaustivo para ayudarme a decidir si es seguro y financieramente viable participar en el remate de la propiedad.
+Por favor, analiza la información y entrégame un reporte estructurado con los siguientes puntos:
+Línea de tiempo clave: Un resumen cronológico breve con los hitos más importantes que han marcado el rumbo del proceso.
+Identificación de "Trabas" y Complejidad: Analiza detalladamente si existen incidentes recurrentes que dilaten el proceso. Busca específicamente: apelaciones, solicitudes de nulidad, tercerías (intervención de terceros), embargos concurrentes, o exceso de recursos presentados por la parte demandada.
+Nivel de Litigio y Riesgo: Clasifica el proceso en un nivel de riesgo (Bajo, Medio, Alto) basándote en la fricción que ha tenido el caso hasta ahora.
+Veredicto: Una conclusión directa sobre si recomiendas entrar a este remate, o si el desgaste jurídico y el riesgo de que el proceso se estanque superan la oportunidad de inversión.
+
+	
+Para cada inmueble, Actúa como un analista del mercado inmobiliario en Colombia. Requiero un análisis enfocado exclusivamente en determinar el valor real de venta de un apartamento en remate y calcular la diferencia exacta frente a su avalúo judicial.
+
+Información del Inmueble:
+
+Ubicación: [Ciudad, Barrio, Estrato]
+
+Área: [m²]
+
+Características: [Habitaciones, Baños, Parqueadero, Piso, Ascensor]
+
+Avalúo Judicial: [Monto en COP]
+
+Postura Mínima (70%): [Monto en COP]
+
+Análisis Requerido:
+
+Estudio de Mercado y $/m²:
+
+Estima el precio promedio de venta por metro cuadrado ($/m²) para apartamentos de similares características en esa zona/barrio.
+
+Calcula el Valor Comercial Real de Venta (multiplicando $/m² por los m² del inmueble, ajustado a precios reales de cierre).
+
+Cálculo de Desfase:
+
+Diferencia frente al Avalúo Judicial:
+
+Desfase en pesos ($): Valor Comercial - Avalúo Judicial
+
+Desfase porcentual (%): ((Valor Comercial - Avalúo Judicial) / Valor Comercial) * 100
+
+Diferencia frente a la Postura Mínima (Base de Subasta):
+
+Desfase en pesos ($): Valor Comercial - Postura Mínima
+
+Desfase porcentual (%): ((Valor Comercial - Postura Mínima) / Valor Comercial) * 100
+
+Entregable:
+Presenta los datos en una tabla comparativa concisa que muestre:
+
+Precio/m² promedio de la zona
+
+Valor Comercial Proyectado
+
+Avalúo Judicial vs. Valor Comercial (Diferencia $ y %)
+
+Postura Mínima vs. Valor Comercial (Diferencia $ y %)
+
+Clasificación de la Oportunidad: (Margen Amplio / Margen Ajustado / Sin Margen)

@@ -1,0 +1,270 @@
+[
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "expiry": 1797994074,
+    "httpOnly": false,
+    "name": "_fbp",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "fb.2.1790217954927.165434104177059601"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "httpOnly": false,
+    "name": "sbjs_current",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "expiry": 1790822754,
+    "httpOnly": false,
+    "name": "last_pys_landing_page",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "https://rematesjudiciales.com.co/mi-cuenta/"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "expiry": 1805770074,
+    "httpOnly": false,
+    "name": "pbid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "0f13ed910621e1dc8a171525df92dcf5474c32143c6354484b2c4b723b0d5716"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "httpOnly": false,
+    "name": "sbjs_migrations",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1418474375998%3D1"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "httpOnly": false,
+    "name": "sbjs_first",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29"
+  },
+  {
+    "domain": "rematesjudiciales.com.co",
+    "httpOnly": false,
+    "name": "twk_idm_key",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "HzFBz-ePjT2VTYonGpA-S"
+  },
+  {
+    "domain": "rematesjudiciales.com.co",
+    "httpOnly": true,
+    "name": "wordpress_logged_in_57507621f0e37c6ec3818a2f614b0bf0",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "pipetwo2%7C1790390870%7ChldZ2vjCJbZUlYDYyuS9QvXTKMgzSiOdQOrSjMYad8c%7C39b9464c89036e858395cb8cb0b478dcb480b01b1cb80ec83126db17ae9d0e34"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "expiry": 1792810069,
+    "httpOnly": false,
+    "name": "pys_advanced_form_data",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "%7B%22first_name%22%3A%22harold%22%2C%22last_name%22%3A%22zuluaga%22%2C%22email%22%3A%22pipetwo2%40hotmail.com%22%2C%22phone%22%3A%22%22%7D"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "expiry": 1790221554,
+    "httpOnly": false,
+    "name": "pys_session_limit",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "true"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "httpOnly": false,
+    "name": "pys_start_session",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "true"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "expiry": 1790218130,
+    "httpOnly": false,
+    "name": "_gat_gtag_UA_85505509_1",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "expiry": 1824778074,
+    "httpOnly": false,
+    "name": "_ga",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "GA1.3.877747025.1790217955"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "expiry": 1790822754,
+    "httpOnly": false,
+    "name": "last_pysTrafficSource",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "direct"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "expiry": 1821753954,
+    "httpOnly": false,
+    "name": "pys_cd",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "rematesjudiciales.com.co"
+  },
+  {
+    "domain": "rematesjudiciales.com.co",
+    "httpOnly": false,
+    "name": "TawkConnectionTime",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "0"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "httpOnly": false,
+    "name": "sbjs_current_add",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "fd%3D2026-09-24%2002%3A45%3A54%7C%7C%7Cep%3Dhttps%3A%2F%2Frematesjudiciales.com.co%2Fmi-cuenta%2F%7C%7C%7Crf%3D%28none%29"
+  },
+  {
+    "domain": "rematesjudiciales.com.co",
+    "httpOnly": false,
+    "name": "PHPSESSID",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "f29d61v9fm6tm4pi2htgl5d83p"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "httpOnly": false,
+    "name": "pys_event_referrer",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "https://rematesjudiciales.com.co/mi-cuenta/"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "expiry": 1790219874,
+    "httpOnly": false,
+    "name": "sbjs_session",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "pgs%3D3%7C%7C%7Ccpg%3Dhttps%3A%2F%2Frematesjudiciales.com.co%2Flistados%2F"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "httpOnly": false,
+    "name": "sbjs_udata",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F131.0.0.0%20Safari%2F537.36"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "httpOnly": false,
+    "name": "sbjs_first_add",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "fd%3D2026-09-24%2002%3A45%3A54%7C%7C%7Cep%3Dhttps%3A%2F%2Frematesjudiciales.com.co%2Fmi-cuenta%2F%7C%7C%7Crf%3D%28none%29"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "expiry": 1790822754,
+    "httpOnly": false,
+    "name": "pys_first_visit",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "true"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "expiry": 1824778074,
+    "httpOnly": false,
+    "name": "_ga_91T2TRF6GZ",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "GS2.1.s1790217955$o1$g1$t1790218074$j56$l0$h0"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "expiry": 1790822754,
+    "httpOnly": false,
+    "name": "pysTrafficSource",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "direct"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "expiry": 1790822754,
+    "httpOnly": false,
+    "name": "pys_landing_page",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "https://rematesjudiciales.com.co/mi-cuenta/"
+  },
+  {
+    "domain": "rematesjudiciales.com.co",
+    "expiry": 1792810069,
+    "httpOnly": false,
+    "name": "fakesessid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "c0c9d6c572079cbcd2a291076b47cd0a"
+  },
+  {
+    "domain": ".rematesjudiciales.com.co",
+    "expiry": 1790304474,
+    "httpOnly": false,
+    "name": "_gid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "GA1.3.1973043346.1790217955"
+  }
+]
